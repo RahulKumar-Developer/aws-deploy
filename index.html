@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!--Head starts here-->
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -7,18 +8,11 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
     <title>Webpack Demo</title>
   </head>
+  <!--Body Starts here-->
   <body class="container">
-    <h1 class="text-center mt-5">
-      Welcome!
-    </h1>
+    <h1 class="text-center mt-5">Welcome!</h1>
     <div class="alert alert-danger" id="error" role="alert"></div>
     <div class="row mt-5">
       <div class="col">
@@ -37,7 +31,6 @@
     <div class="card mt-5">
       <div class="card-body">The result is: <span id="result"></span></div>
     </div>
-    <img src="./assets/webpack.svg" />
+    <img src="./src/assets/webpack.svg" alt="Webpack Logo" />
   </body>
-  <script src="./dist/main.js"></script>
 </html>
